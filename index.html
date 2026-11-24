@@ -305,7 +305,7 @@ body.theme-light{--today-glow:rgba(17,108,179,.13)}
 }
 
 
-/* V1.0.0 – Logo del colegio, icono planeta y aviso de actualización */
+/* V1.0.1 – Logo del colegio, icono planeta y aviso de actualización */
 .school-brand{
  display:flex;align-items:center;justify-content:center;gap:10px;
  min-height:38px;padding:6px 12px;border-radius:14px;
@@ -353,7 +353,7 @@ body.theme-light{--today-glow:rgba(17,108,179,.13)}
 }
 
 
-/* V1.0.0: logo arriba, ciclo abajo y desborde lateral corregido. */
+/* V1.0.1: logo arriba, ciclo abajo y desborde lateral corregido. */
 html, body { width:100%; max-width:100%; overflow-x:clip !important; }
 body { background:var(--bg) !important; }
 .app {
@@ -428,7 +428,7 @@ body { background:var(--bg) !important; }
 }
 
 
-/* V1.0.0 - Cabecera institucional a sangre completa, sin franjas blancas laterales.
+/* V1.0.1 - Cabecera institucional a sangre completa, sin franjas blancas laterales.
    La imagen conserva su relación de aspecto 3:1 para no cortar el escudo ni el lema. */
 .school-brand,
 .school-brand-card { width:100%;max-width:100%;min-width:0; }
@@ -891,7 +891,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 @media(max-height:650px){.school-brand-card{height:85px!important;padding:4px 10px!important;}}
 @media(max-width:355px){.school-brand-card img.school-lockup{width:min(100%,295px)!important;}}
 
-/* St. John's School V1.0.0 — presentación comercial: identidad única y distribución móvil. */
+/* St. John's School V1.0.1 — presentación comercial: identidad única y distribución móvil. */
 .school-brand-card{
   height:clamp(76px,11.5dvh,94px)!important;
   gap:0!important;
@@ -953,7 +953,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
   .cycle-strip{padding:4px 9px!important;}
 }
 
-/* V1.0.0 — Optimización del escudo en la cabecera, sin ampliar desproporcionadamente la tarjeta. */
+/* V1.0.1 — Optimización del escudo en la cabecera, sin ampliar desproporcionadamente la tarjeta. */
 .school-brand-card{
  height:clamp(96px,13dvh,110px)!important;
  min-height:0!important; padding:6px 10px!important;
@@ -987,14 +987,14 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
  .school-brand-card img.school-brand-crest{height:61px!important;}
 }
 
-/* St. John's School DEMO V1.0.0: identidad ilustrativa, distinta del escudo oficial. */
+/* St. John's School DEMO V1.0.1: identidad ilustrativa, distinta del escudo oficial. */
 .school-brand-card{background:linear-gradient(120deg,#fbf9f3,#fff 62%,#edf6f5)!important;border-color:#cbd9d8!important;}
 .school-brand-name{color:#23334c!important;font-size:clamp(18px,5.3vw,26px)!important;letter-spacing:-.046em!important;}
 .school-brand-card .school-ident small{color:#7b3046!important;}
 .school-brand-card img.school-brand-crest{filter:drop-shadow(0 2px 2px #1c2a2b22);}
 @media(max-width:350px){.school-brand-name{font-size:17px!important}}
 
-/* St. John's School V1.0.0 — identidad ilustrativa creada para esta demostración.
+/* St. John's School V1.0.1 — identidad ilustrativa creada para esta demostración.
    Un solo asset horizontal en cabecera; escudo aislado para iconos de instalación. */
 .school-brand{background:transparent!important; border:0!important;box-shadow:none!important; padding:0!important;min-height:0!important;}
 .school-brand .school-brand-card{
@@ -1023,7 +1023,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 }
 
 
-/* St. John's School V1.0.0 — corrección auditada del encabezado:
+/* St. John's School V1.0.1 — corrección auditada del encabezado:
    se eliminan las bandas blancas causadas por reglas heredadas de imágenes.
    Se utiliza el logotipo completo, sin bordes ni recortes laterales. */
 .school-brand .school-brand-card{background:#FFF7F3!important;}
@@ -1047,7 +1047,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 @media(max-height:660px){
  .school-brand .school-brand-card .school-brand-main img.school-brand-logo{max-height:78px!important;}
 }
-/* St. John's School V1.0.0: composición inferior coherente con Chesterton V1.4.42,
+/* St. John's School V1.0.1: composición inferior coherente con Chesterton V1.4.42,
     sin intervenir en el banner, horarios ficticios ni las preferencias previas. */
 /* El símbolo aparece solo en el banner institucional. La cuadrícula no reserva un hueco invisible. */
 .header-text{min-width:0;display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:10px;width:100%;}
@@ -1117,6 +1117,11 @@ body.theme-light .header-year{color:#205A87!important}
 .school-brand .school-brand-card .school-ident small {color:#842642!important;}
 body.theme-light .school-brand .school-brand-card {background:#FFF7F3!important;}
 
+
+/* V1.0.1 — Banner institucional referencial, respetando los colores de St. John's. */
+.school-brand .school-brand-card {background:#52051D!important;border:1px solid #EAD7AF!important;box-shadow:0 4px 18px #0003!important;}
+.school-brand .school-brand-card .school-ident small {color:#F8EBD5!important;}
+.school-brand .school-brand-card .school-brand-main img.school-brand-logo{object-fit:contain!important;background:transparent!important;}
 </style>
 </head>
 <body class="theme-blue">
@@ -1124,7 +1129,7 @@ body.theme-light .school-brand .school-brand-card {background:#FFF7F3!important;
  <div class="school-brand" aria-label="Vista de demostración no oficial para St. John's School">
   <div class="school-brand-card">
     <div class="school-brand-main">
-      <img class="school-brand-logo" src="./banner-st-johns-pilar.png" alt="Identidad visual referencial SJ para la demostración; no es el escudo oficial" width="1600" height="410" decoding="async">
+      <img class="school-brand-logo" src="./banner-st-johns-pilar.png" alt="Recreación gráfica referencial del águila y lema de St. John’s School; DEMO no oficial" width="1600" height="410" decoding="async">
     </div>
     <div class="school-ident"><small>DEMO NO OFICIAL · HORARIOS FICTICIOS</small></div>
   </div>
@@ -1256,7 +1261,7 @@ const themes=['theme-blue','theme-light','theme-dark'];
 // Cambiar SCHOOL_CYCLE_YEAR al incorporar los horarios del nuevo ciclo lectivo.
 // No depende del 1 de enero ni de la fecha del dispositivo.
 const SCHOOL_CYCLE_YEAR=2027;
-const APP_VERSION='V1.0.0';
+const APP_VERSION='V1.0.1';
 $('helpAppVersion').textContent=APP_VERSION;
 const themeIcons={
   'theme-blue': "<span class=\"theme-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" focusable=\"false\"><defs><linearGradient id=\"waningBlue\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#D0F1FF\"/><stop offset=\".45\" stop-color=\"#81C8FF\"/><stop offset=\"1\" stop-color=\"#3087EA\"/></linearGradient></defs><path transform=\"rotate(11 12 12)\" d=\"M12 2.3 A9.7 9.7 0 0 0 12 21.7 C5.05 17.25 5.05 6.75 12 2.3Z\" fill=\"url(#waningBlue)\" stroke=\"#A9DCFF\" stroke-width=\".36\" stroke-linejoin=\"round\"/></svg></span>",
