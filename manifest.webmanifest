@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "St. John's School · Horario Escolar (DEMO NO OFICIAL)",
+  "short_name": "St. John’s · Horario",
+  "description": "DEMO comercial independiente de MARK-TECH SOFTWARE para St. John's School. Horarios ilustrativos del ciclo 2027.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFF7F3",
+  "theme_color": "#071122",
+  "lang": "es-AR",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

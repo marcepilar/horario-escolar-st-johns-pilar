@@ -1,0 +1,64 @@
+{
+  "school": "Horario_Escolar_St_Johns_School_Pilar_V1.0.0_PRUEBA",
+  "chromium": true,
+  "widths": [
+    320,
+    360,
+    412
+  ],
+  "themes": [
+    "theme-blue",
+    "theme-light",
+    "theme-dark"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "title": "Horario Escolar",
+      "checked": true,
+      "lesson_count": 5
+    },
+    {
+      "lang": "en",
+      "title": "School Timetable",
+      "checked": true,
+      "lesson_count": 5
+    },
+    {
+      "lang": "pt",
+      "title": "Horário Escolar",
+      "checked": true,
+      "lesson_count": 5
+    },
+    {
+      "lang": "fr",
+      "title": "Emploi du temps",
+      "checked": true,
+      "lesson_count": 5
+    },
+    {
+      "lang": "de",
+      "title": "Stundenplan",
+      "checked": true,
+      "lesson_count": 5
+    },
+    {
+      "lang": "it",
+      "title": "Orario scolastico",
+      "checked": true,
+      "lesson_count": 5
+    }
+  ],
+  "courses_checked": 12,
+  "javascript_errors": [],
+  "asset_files": 16,
+  "physical_device_tested": false,
+  "https_service_worker_tested": false,
+  "persistence_real_installation_tested": false,
+  "persistence_with_simulated_localStorage": {
+    "lang": "it",
+    "course": "4B",
+    "theme": "theme-light",
+    "verified_after_recreating_document": true
+  }
+}

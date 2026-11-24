@@ -1,0 +1,17 @@
+{
+  "version": "V1.0.0",
+  "app": "St. John's School · Horario Escolar · DEMO NO OFICIAL",
+  "updated": "2026-11-24",
+  "status": "PRUEBA",
+  "cycle_year": 2027,
+  "languages": [
+    "es",
+    "en",
+    "pt",
+    "fr",
+    "de",
+    "it"
+  ],
+  "courses": "1.º a 6.º, divisiones A y B; 12 cursos ficticios",
+  "notes": "Primera DEMO de prueba: identidad gráfica referencial, no oficial. Horarios ficticios para demostración, sin vinculación institucional."
+}
